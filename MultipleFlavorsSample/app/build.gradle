@@ -4,8 +4,6 @@ android {
     compileSdkVersion rootProject.compileSdkVersion
     buildToolsVersion rootProject.buildToolsVersion
 
-    //publishNonDefault true
-
     defaultConfig {
         applicationId "com.emedinaa.peruvianmusic"
         minSdkVersion rootProject.minSdkVersion
