@@ -74,7 +74,7 @@ dependencies {
     compile "com.android.support:recyclerview-v7:$rootProject.supportLibraryVersion"
     compile "com.github.bumptech.glide:glide:$rootProject.glide"
 ```
-Con esto podemos tener centralizado las dependencias del proyecto
+* Con esto podemos tener centralizadas las dependencias del proyecto
 
 # Flavors 
 
