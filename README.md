@@ -2,7 +2,6 @@
 Android Multiple Product Flavors
 
 # Gradle Ext Properties
-
 Definimos las versiones de las dependencias de nuestra App , para esto vamos al build.gradle del Proyecto.
 
 ```
@@ -72,7 +71,6 @@ Definimos los productFlavors de nuesta App ( build.gradle)
         }
     }
 ```
-
 Definimos las configuraciones para asociar los flavors de la App con los flavors de nuestros módulos
 ```
 configurations {
@@ -96,7 +94,7 @@ En nuestro módulo "module-data" , definimos nuestros flavors
         }
     }
 ```
-Donde usando un file "server.properties" donde guardamos el path de nuestros servicios, esto se encuentra en la raiz del proyecto
+Mediante un file "server.properties" , que se encuentra en la raiz del proyecto, guardamos variables que sean requeridas, como por ejemplo, el path de los servicios Restful.
 ```
 serverURL="http://www.mocky.io"
 ```
