@@ -1,0 +1,42 @@
+{
+  "status": 200,
+  "data": [
+    {
+      "id": 1,
+      "name": "Lorem Ipsum",
+      "img": "http://www.turismocavassa.com.pe/img/marca-peru.png",
+      "description": "Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. . Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor..."
+    },
+    {
+      "id": 2,
+      "name": "Lorem Ipsum",
+      "img": "http://www.turismocavassa.com.pe/img/marca-peru.png",
+      "description": "Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. . Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor..."
+    },
+    {
+      "id": 3,
+      "name": "Lorem Ipsum",
+      "img": "http://www.turismocavassa.com.pe/img/marca-peru.png",
+      "description": "Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. . Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor..."
+    },
+    {
+      "id": 4,
+      "name": "Lorem Ipsum",
+      "img": "http://www.turismocavassa.com.pe/img/marca-peru.png",
+      "description": "Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. . Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor..."
+    },
+    {
+      "id": 5,
+      "name": "Lorem Ipsum",
+      "img": "http://www.turismocavassa.com.pe/img/marca-peru.png",
+      "description": "Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. . Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor..."
+    },
+    {
+      "id": 6,
+      "name": "Lorem Ipsum",
+      "img": "http://www.turismocavassa.com.pe/img/marca-peru.png",
+      "description": "Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. . Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor..."
+    }
+  ]
+}
+

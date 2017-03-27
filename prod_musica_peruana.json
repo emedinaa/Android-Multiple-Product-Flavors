@@ -1,0 +1,41 @@
+{
+  "status": 200,
+  "data": [
+    {
+      "id": 1,
+      "name": "La Marinera",
+      "img": "https://cdn.viajala.com/img/blog/bailes-peru/marinera-peru.jpg",
+      "description": "La belleza del baile nacional de Perú sorprende por la fuerza de su música, las historias que cuentan sus letras y la elegancia con la que las parejas parecieran danzar con el viento."
+    },
+    {
+      "id": 2,
+      "name": "El Huayno",
+      "img": "https://cdn.viajala.com/img/blog/bailes-peru/huayno-peru.jpg",
+      "description": "Probablemente, este es el baile más conocido a nivel local e internacional después de la marinera, ya que sus orígenes se remontan a la época en la que los Incas dominaban la mayoría del territorio. "
+    },
+    {
+      "id": 3,
+      "name": "El Vals peruano",
+      "img": "http://2.bp.blogspot.com/-YVb3gvZeNKs/VGERdCZY-HI/AAAAAAAAArg/1RJJKmdnRgU/s1600/polacrioll.jpg",
+      "description": "Es una de las manifestaciones más románticas de las danzas de Perú y refleja la integración cultural que se realizó en el siglo XIX, cuando llegó el vals vienés y los peruanos en vez de adoptarlo, lo adaptaron."
+    },
+    {
+      "id": 4,
+      "name": "El Wititi",
+      "img": "https://cdn.viajala.com/img/blog/bailes-peru/wititi-colca.jpg",
+      "description": "Esta danza típica del sur del Perú, concretamente del Valle del Colca y sus alrededores, destaca por haber permanecido casi intacta a lo largo de los siglos, por lo que ha sido declarada Patrimonio Cultural de la Nación."
+    },
+    {
+      "id": 5,
+      "name": "Danza de las tijeras",
+      "img": "https://cdn.viajala.com/img/blog/samples/danza-tijeras.jpg",
+      "description": "Esta particular danza, que puede parecer bastante graciosa y rara por la mezcla de instrumentos, ritmos y pasos de baile, es originaria de la región de Ayacucho y es interpretada con violín y arpa. "
+    },
+    {
+      "id": 6,
+      "name": "El Festejo",
+      "img": "http://blog.intiways.travel/wp-content/uploads/festejo.jpg",
+      "description": "Esta es otra de las danzas más representativas del Perú. Su origen es afroperuano y se originó durante el siglo XX.  Representa el mestizaje negro peruano que aún se mantiene vigente en las ciudades de Lima e Ica. "
+    }
+  ]
+}

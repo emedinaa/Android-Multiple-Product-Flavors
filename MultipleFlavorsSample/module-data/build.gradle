@@ -10,6 +10,9 @@ android {
         targetSdkVersion rootProject.targetSdkVersion
         versionCode 1
         versionName "1.0"
+
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+
     }
     buildTypes {
         release {
@@ -19,25 +22,36 @@ android {
     }
 
     productFlavors{
+        def Properties serverProps = new Properties()
+        serverProps.load(new FileInputStream(file('../server.properties')))
+
         dev {
-            buildConfigField 'String', 'HOST', '"http://192.168.1.34:3000"'
+            buildConfigField "String", "BASE_URL", serverProps["serverURL"]
         }
 
         prod {
-            buildConfigField 'String', 'HOST', '"http://api.zuul.com"'
+            buildConfigField "String", "BASE_URL", serverProps["serverURL"]
         }
     }
 }
+
+
 
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     testCompile "junit:junit:$rootProject.junit"
 
-
     compile "com.android.support:appcompat-v7:$rootProject.supportLibraryVersion"
-    compile "com.android.support:support-v4:$rootProject.supportLibraryVersion"
-    compile "com.android.support:design:$rootProject.supportLibraryVersion"
-    compile "com.android.support:cardview-v7:$rootProject.supportLibraryVersion"
-    compile "com.android.support:recyclerview-v7:$rootProject.supportLibraryVersion"
+
+    //RETROFIT 2
+    //https://github.com/square/retrofit
+    compile "com.squareup.retrofit2:retrofit:$rootProject.retrofit2"
+
+    //GSON
+    //https://github.com/google/gson
+    compile "com.squareup.retrofit2:converter-gson:$rootProject.gson"
+
+    //INTERCEPTOR
+    compile "com.squareup.okhttp3:logging-interceptor:$rootProject.interceptor"
 
 }
