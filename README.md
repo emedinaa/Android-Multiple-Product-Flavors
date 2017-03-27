@@ -3,6 +3,7 @@ Android Multiple Product Flavors
 
 En este ejemplo veremos como usar flavors y  multiples flavors en un proyecto Android.
 Tenemos un proyecto Android , que se constituye de un módulo llamado "module-data" , donde implementamos el consumo de servicios RestFul y una app Android. Realizamos estas capas para poder separar responsabilidades, de tal manera que si necesitamos modificar algo en los servicios o cualquier otro proveedor de datos, solo necesitariamos modificar el módulo llamado "module-data". Al realizarlo de esa manera tendriamos por un lado la app y por el otro el módulo de datos, donde la app tiene dependencia del módulo. Tambien, como sucede en muchos proyectos reales, se maneja diferentes entornos , por ejemplo, uno de desarrollo y otro de producción, en donde tenemos un servidor de desarrollo y un servidor de producción. 
+
 <img src="./screenshots/android_project.png" height="360">
 
 ## El problema
