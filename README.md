@@ -78,6 +78,7 @@ dependencies {
 
 # Flavors 
 
+Los flavors nos permiten manejar entornos en nuestro proyecto, de tal manera que podemos definir variables diferentes acorde al entorno que seleccionemos.
 Definimos los productFlavors de nuesta App ( build.gradle)
 ```
    productFlavors {
@@ -98,7 +99,7 @@ configurations {
     prodReleaseCompile
 }
 ```
-En nuestro módulo "module-data" , definimos nuestros flavors
+En nuestro módulo "module-data" , definimos  flavors
 ```
     productFlavors{
         def Properties serverProps = new Properties()
@@ -159,13 +160,13 @@ dependencies {
 
 # Ejemplo : PeruvianMusic App
 
-Este ejemplo se muestra un listado de danzas peruanas, que se consumen de un servicio Rest . Para nuestro entorno de *desarrollo* usamos este servicio http://www.mocky.io/v2/58d86bcc0f00002417dcc6b3 y para *producción* este servicio http://www.mocky.io/v2/58d51ffa100000b804d0b156
+Este ejemplo se muestra un listado de danzas peruanas que son cargadas de un servicio RestFul . Para nuestro entorno de *desarrollo* usamos este servicio http://www.mocky.io/v2/58d86bcc0f00002417dcc6b3 y para *producción* este servicio http://www.mocky.io/v2/58d51ffa100000b804d0b156
 
-Entorno Dev
+Entorno de desarrollo (dev)
 
 <img src="./screenshots/dev_device-2017-03-26-213026.png" height="480"> <img src="./screenshots/dev_device-2017-03-26-213050.png" height="480">
 
-Entorno Release
+Entorno de producción (prod)
 
 <img src="./screenshots/device-2017-03-26-212613.png" height="480"> <img src="./screenshots/device-2017-03-26-212704.png" height="480">
 <img src="./screenshots/device-2017-03-26-212724.png" height="480">
