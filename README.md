@@ -5,7 +5,7 @@ Android Multiple Product Flavors
 
 Definimos las versiones de las dependencias de nuestra App , para esto vamos al build.gradle del Proyecto.
 
-```DSL
+```
   ext{
       //sdk and tools
       minSdkVersion = 14
@@ -30,20 +30,27 @@ Definimos las versiones de las dependencias de nuestra App , para esto vamos al 
 ```
 # Dependencias 
 
-- Retrofit 2
-- Gson 
-- Glide 
+- Retrofit 2 [http://square.github.io/retrofit/](http://square.github.io/retrofit/)
+
+- Gson [https://github.com/google/gson](https://github.com/google/gson)
+
+- Glide [https://github.com/bumptech/glide](https://github.com/bumptech/glide)
+
+# Build Variants
+
+<img src="./screenshots/Captura%20de%20pantalla%20de%202017-03-26%2021-28-03.png" height="480">
+
+# Publicación
+
+<img src="./screenshots/Captura%20de%20pantalla%20de%202017-03-26%2021-33-32.png" height="480">
 
 # Ejemplo : PeruvianMusic App
 
 Entorno Dev
 
-<img src="./screenshots/dev_device-2017-03-26-213026.png" height="480">
-<img src="./screenshots/dev_device-2017-03-26-213050.png" height="480">
+<img src="./screenshots/dev_device-2017-03-26-213026.png" height="480"><img src="./screenshots/dev_device-2017-03-26-213050.png" height="480">
 
 Entorno Release
 
-<img src="./screenshots/device-2017-03-26-212613.png" height="480">
-<img src="./screenshots/device-2017-03-26-212704.png" height="480">
-
+<img src="./screenshots/device-2017-03-26-212613.png" height="480"><img src="./screenshots/device-2017-03-26-212704.png" height="480">
 <img src="./screenshots/device-2017-03-26-212724.png" height="480">
