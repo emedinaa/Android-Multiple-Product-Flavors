@@ -18,7 +18,7 @@ Para despejar estas dudas, veremos los siguientes puntos :
 
 - Ejemplo
 
-# --
+#
 
 # Gradle Ext Properties
 Definimos las versiones de las dependencias de nuestra App , para esto vamos al build.gradle del Proyecto.
