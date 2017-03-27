@@ -179,3 +179,7 @@ Entorno de producción (prod)
 - Gson [https://github.com/google/gson](https://github.com/google/gson)
 
 - Glide [https://github.com/bumptech/glide](https://github.com/bumptech/glide)
+
+# Issues
+
+- Cualquier issue, duda o consulta lo puede dejar en este link [https://github.com/emedinaa/Android-Multiple-Product-Flavors/issues](https://github.com/emedinaa/Android-Multiple-Product-Flavors/issues) y lo atenderé a la brevedad.
