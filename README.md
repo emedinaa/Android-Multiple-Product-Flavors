@@ -152,7 +152,7 @@ dependencies {
 ```
 
 # Build Variants
-Antes de compilar el proyecto o si te figura algun error con los BuildConfig, verifica en la ventana de BuildVariants los siguiente :
+Antes de compilar el proyecto o si te sale algún error con los BuildConfig, verifica en la ventana de BuildVariants lo siguiente :
 
 Para el entorno de Desarrollo 
 
