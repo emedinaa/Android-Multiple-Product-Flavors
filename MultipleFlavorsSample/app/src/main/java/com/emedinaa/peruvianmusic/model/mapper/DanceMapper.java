@@ -16,13 +16,20 @@ public class DanceMapper {
         List<Dance> dances= new ArrayList<>();
         if(danceEntityList==null) return  dances;
         for (DanceEntity danceEntity:danceEntityList) {
-            Dance dance= new Dance();
-            dance.setId(danceEntity.getId());
-            dance.setName(danceEntity.getName());
-            dance.setDescription(danceEntity.getDescription());
-            dance.setImg(danceEntity.getImg());
-            dances.add(dance);
+            dances.add(transformEntity(danceEntity));
         }
         return dances;
+    }
+
+    private Dance transformEntity(DanceEntity danceEntity){
+        Dance dance= new Dance();
+        if(danceEntity==null) return dance;
+
+        dance.setId(danceEntity.getId());
+        dance.setName(danceEntity.getName());
+        dance.setDescription(danceEntity.getDescription());
+        dance.setImg(danceEntity.getImg());
+
+        return dance;
     }
 }

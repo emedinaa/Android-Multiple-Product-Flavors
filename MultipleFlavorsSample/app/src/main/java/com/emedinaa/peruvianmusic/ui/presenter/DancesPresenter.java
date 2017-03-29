@@ -19,6 +19,7 @@ public class DancesPresenter {
     public DancesPresenter(DancesContrat.View dancesView, DancesInteractor dancesInteractor) {
         this.dancesView = dancesView;
         this.dancesInteractor = dancesInteractor;
+        this.dancesView.setPresenter(this);
     }
 
     private StorageCallback storageCallback= new StorageCallback() {

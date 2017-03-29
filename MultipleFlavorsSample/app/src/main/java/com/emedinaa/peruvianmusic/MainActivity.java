@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity implements OnPageListener,Da
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        injecPresenter();
+        injectPresenter();
         ui();
 
         getPeruvianDances();
@@ -40,10 +40,10 @@ public class MainActivity extends AppCompatActivity implements OnPageListener,Da
         vpagerDance= (ViewPager) findViewById(R.id.vpagerDance);
     }
 
-    private void injecPresenter() {
+    private void injectPresenter() {
         DancesInteractor dancesInteractor= new DancesInteractor(new DefaultDataProvider(), new DanceMapper());
-        DancesPresenter mDancesPresenter= new DancesPresenter(this,dancesInteractor);
-        setPresenter(mDancesPresenter);
+        new DancesPresenter(this,dancesInteractor);
+        //setPresenter(mDancesPresenter);
     }
 
     @Override

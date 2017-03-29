@@ -2,8 +2,8 @@ package com.emedinaa.peruvianmusic.data;
 
 import android.util.Log;
 
-import com.emedinaa.peruvianmusic.data.model.BaseResponse;
 import com.emedinaa.peruvianmusic.data.model.DanceEntity;
+import com.emedinaa.peruvianmusic.data.model.DanceResponse;
 import com.emedinaa.peruvianmusic.data.rest.ApiClient;
 
 import java.util.List;
@@ -24,7 +24,7 @@ public class DefaultDataProvider implements DataProvider {
 
     @Override
     public void getDances(final StorageCallback storageCallback) {
-        Call<BaseResponse> call = null;
+        Call<DanceResponse> call = null;
         String buildtype = BuildConfig.BUILD_TYPE.toString();
         String flavor = BuildConfig.FLAVOR.toString();
 
@@ -37,11 +37,11 @@ public class DefaultDataProvider implements DataProvider {
             call=ApiClient.getDevDancesApiClient().dances();
         }
 
-        call.enqueue(new Callback<BaseResponse>() {
+        call.enqueue(new Callback<DanceResponse>() {
             @Override
-            public void onResponse(Call<BaseResponse> call, Response<BaseResponse> response) {
+            public void onResponse(Call<DanceResponse> call, Response<DanceResponse> response) {
                 if (response.isSuccessful()) {
-                    BaseResponse recipesResponse= response.body();
+                    DanceResponse recipesResponse= response.body();
                     if(recipesResponse!=null){
                         List<DanceEntity> danceEntityList= recipesResponse.getData();
                         storageCallback.onSuccess(danceEntityList);
@@ -55,7 +55,7 @@ public class DefaultDataProvider implements DataProvider {
             }
 
             @Override
-            public void onFailure(Call<BaseResponse> call, Throwable t) {
+            public void onFailure(Call<DanceResponse> call, Throwable t) {
                 String json = "Error ";
                 try {
                     json = new StringBuffer().append(t.getMessage()).toString();

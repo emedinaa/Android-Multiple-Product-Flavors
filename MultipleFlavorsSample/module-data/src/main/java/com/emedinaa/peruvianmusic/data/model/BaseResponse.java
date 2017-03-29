@@ -7,8 +7,7 @@ import java.util.List;
  */
 
 public class BaseResponse {
-    private int status;
-    private List<DanceEntity> data;
+    protected int status;
 
     public int getStatus() {
         return status;
@@ -18,11 +17,5 @@ public class BaseResponse {
         this.status = status;
     }
 
-    public List<DanceEntity> getData() {
-        return data;
-    }
 
-    public void setData(List<DanceEntity> data) {
-        this.data = data;
-    }
 }

@@ -11,7 +11,7 @@ import java.util.List;
 
 public interface DancesContrat {
 
-    public interface View extends BaseView<DancesPresenter> {
+    interface View extends BaseView<DancesPresenter> {
         void renderDances(List<Dance> dances);
         void showLoading();
         void hideLoading();
