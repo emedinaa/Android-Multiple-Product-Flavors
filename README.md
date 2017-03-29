@@ -152,8 +152,17 @@ dependencies {
 ```
 
 # Build Variants
+Antes de compilar el proyecto o si te figura algun error con los BuildConfig, verifica en la ventana de BuildVariants los siguiente :
+
+Para el entorno de Desarrollo 
+
+<img src="./screenshots/BuildVariantsDev.png" height="360">
+
+y para el entorno de producción
 
 <img src="./screenshots/Captura%20de%20pantalla%20de%202017-03-26%2021-28-03.png" height="360">
+
+* Si no esta activa la ventana de BuildVariants, haces lo siguiente *View* -> *Tools Windows* --> *Build Variants*
 
 # Publicación
 
